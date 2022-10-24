@@ -8,10 +8,17 @@ def download_data():
   gdown.download(url, output, quiet = False)
 
 download_data()
-st.title('Bienvenidos al Laboratorio de Ingeniería UPCH')
-st.header('1. Descripción', anchor = None)
-image = io.imread('Image_Lab.jpg')
-st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = None, clamp = False, channels = 'RGB', output_format = 'jpg')
-st.markdown('# Solicitudes', unsafe_allow_html = True)
-st.markdown('#### Solicitar Materiales', unsafe_allow_html = True)
-st.markdown('#### Solicitud de copias', unsafe_allow_html = True)
+tab1, tab2, tab3 = st.tabs(['Descripción, 'Miembros', 'Solicitudes', 'Contacto'])
+with tab1:
+  st.title('Bienvenidos al Laboratorio de Ingeniería UPCH')
+  st.header('1. Descripción', anchor = None)
+  image = io.imread('Image_Lab.jpg')
+  st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = None, clamp = False, channels = 'RGB', output_format = 'jpg')
+with tab2:
+  st.markdown(**Miembros**)
+with tab3:
+  st.markdown('# Solicitudes', unsafe_allow_html = True)
+  st.markdown('#### Solicitar Materiales', unsafe_allow_html = True)
+  st.markdown('#### Solicitud de copias', unsafe_allow_html = True)
+with tab4:
+  st.markdown(**Teléfonos de contacto**)
