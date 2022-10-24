@@ -10,6 +10,6 @@ def download_data():
 
 download_data()
 st.title('Bienvenidos al Laboratorio de Ingeniería UPCH')
-st.header('Descripción', anchor = 'Descripción')
+st.markdown('# Descripción', unsafe_allow_html = False)
 image = io.imread('Image_Lab.jpg')
 st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = None, clamp = False, channels = 'RGB', output_format = 'jpg')
