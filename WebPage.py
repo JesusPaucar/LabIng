@@ -56,12 +56,12 @@ with tab2:
   image5 = io.imread('Fig_4.jpg')
   
   col1, col2, col3 = st.columns(3)
-  col2.image(image1)
+  col2.image(image1, caption = 'Juan Manuel')
   col11, col22, col33, col44 = st.columns(4)
-  col11.image(image2, caption = 'P1')
-  col22.image(image3)
-  col33.image(image4)
-  col44.image(image5)
+  col11.image(image2, caption = 'ALEX')
+  col22.image(image3, caption = 'ARELÍ')
+  col33.image(image4, caption = 'ABRAHAM')
+  col44.image(image5, caption = 'PIERO')
 with tab3:
   st.markdown('# Solicitudes', unsafe_allow_html = False)
   st.markdown('#### Solicitar Materiales', unsafe_allow_html = False)
