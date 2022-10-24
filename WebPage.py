@@ -14,7 +14,8 @@ with tab1:
   st.header('1. Nosotros', anchor = None)
   st.write('uno dos tres cuatro cinco seis siete ocho nueve diez.... añadir descripción de nosotros')
   image = io.imread('Image_Lab.jpg')
-  st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = None, clamp = False, channels = 'RGB', output_format = 'jpg')
+  col1, col2, col3 = st.columns([0.2, 5.0, 0.2])
+  st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = True, clamp = False, channels = 'RGB', output_format = 'jpg')
 with tab2:
   st.markdown('**Miembros**')
 with tab3:
