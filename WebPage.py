@@ -15,10 +15,10 @@ with tab1:
   image = io.imread('Image_Lab.jpg')
   st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = None, clamp = False, channels = 'RGB', output_format = 'jpg')
 with tab2:
-  st.markdown(**Miembros**)
+  st.markdown('**Miembros**')
 with tab3:
   st.markdown('# Solicitudes', unsafe_allow_html = True)
   st.markdown('#### Solicitar Materiales', unsafe_allow_html = True)
   st.markdown('#### Solicitud de copias', unsafe_allow_html = True)
 with tab4:
-  st.markdown(**Teléfonos de contacto**)
+  st.markdown('**Teléfonos de contacto**')
