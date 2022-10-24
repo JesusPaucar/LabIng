@@ -1,5 +1,6 @@
 import streamlit as st
-from skimage.io import imread
+from skimage import io
+#from skimage.io import imread
 import gdown
 
 def download_data():
