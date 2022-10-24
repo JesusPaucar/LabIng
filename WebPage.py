@@ -12,7 +12,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Nosotros', 'Miembros', 'Solicitudes', 'Contac
 with tab1:
   st.title('Bienvenidos a los Laboratorios de Ingeniería UPCH')
   st.header('1. Nosotros', anchor = None)
-  st.text('uno dos tres cuatro cinco seis siete ocho nueve diez.... añadir descripción de nosotros')
+  st.write('uno dos tres cuatro cinco seis siete ocho nueve diez.... añadir descripción de nosotros')
   image = io.imread('Image_Lab.jpg')
   st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = None, clamp = False, channels = 'RGB', output_format = 'jpg')
 with tab2:
