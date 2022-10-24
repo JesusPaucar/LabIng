@@ -8,7 +8,7 @@ def download_data():
   gdown.download(url, output, quiet = False)
 
 download_data()
-tab1, tab2, tab3, tab4 = st.tabs(['Descripción, 'Miembros', 'Solicitudes', 'Contacto'])
+tab1, tab2, tab3, tab4 = st.tabs(['Descripción', 'Miembros', 'Solicitudes', 'Contacto'])
 with tab1:
   st.title('Bienvenidos al Laboratorio de Ingeniería UPCH')
   st.header('1. Descripción', anchor = None)
