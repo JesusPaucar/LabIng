@@ -67,7 +67,7 @@ def footer():
     "with ❤️ by",
     link("https://", "@zafiro"),
     br(),
-    link("https://upch.edu.pe", "@zafiro"),
+    link("https://www.cayetano.edu.pe", "@zafiro"),
   ]
   layout(*myargs)
 
