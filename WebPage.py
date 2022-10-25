@@ -10,7 +10,7 @@ def download_data(url, output):
   gdown.download(url, output, quiet = False)
 
 def image(src_as_string, **style):
-  return img(src = src_as_string, style = styles(**style))
+  return io.imread(src = src_as_string, style = styles(**style))
 
 def link(link, text, **style):
   return a(_href = link, _target = 'blank', style = styles(**style))(text)
