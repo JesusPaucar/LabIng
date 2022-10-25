@@ -12,8 +12,8 @@ def download_data(url, output):
 def image(src_as_string, **style):
   return io.imread(src = src_as_string, style = styles(**style))
 
-def link(link, text, **style):
-  return a(_href = link, _target = 'blank', style = styles(**style))(text)
+def link(link, **style):
+  return a(_href = link, _target = 'blank', style = styles(**style))
 
 def layout(*args):
   
@@ -64,12 +64,10 @@ def layout(*args):
 def footer():
   myargs = [
     "Made in ",
-    image('Fig_1.jpg',
-          width = px(25), height = px(25)),
     "with ❤️ by",
     link("https://", "@zafiro"),
     br(),
-    link("https://upch.edu.pe", image('Fig_1.jpg')),
+    link("https://upch.edu.pe"),
   ]
   layout(*myargs)
 
