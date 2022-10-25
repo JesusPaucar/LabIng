@@ -137,7 +137,7 @@ with tab2:
 with tab3:
   st.markdown('# Solicitudes', unsafe_allow_html = False)
   st.markdown('#### Solicitar Materiales:', unsafe_allow_html = False)
-  st.write(link("https://forms.gle/5E5NCZHN8JZMYnix6", "@prestamos"))
+  st.write("Link de referencia: https://forms.gle/5E5NCZHN8JZMYnix6")
   st.markdown('#### Solicitud de copias', unsafe_allow_html = False)
   footer()
 with tab4:
