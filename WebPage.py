@@ -98,7 +98,7 @@ def layout(*args):
   html(js_code)
 
 def footer():
-  with open('https://cayetano.edu.pe/cayetano/images/2020/eventos/img-logo-upch-001-2.png', 'rb') as f:
+  with open('Fig_1.jpg', 'rb') as f:
     img_logo = f.read()
   logo_cache = st.image(img_logo)
   logo_cache.empty()
