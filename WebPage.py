@@ -98,12 +98,12 @@ def layout(*args):
   html(js_code)
 
 def footer():
-  with open('upch.jpg', 'rb') as f:
+  with open('upch.JPG', 'rb') as f:
     img_logo = f.read()
   logo_cache = st.image(img_logo)
   logo_cache.empty()
   
-  myargs = ["Made in", image('upch.jpg', width = px(25), height = px(25)),
+  myargs = ["Made in", image('upch.JPG', width = px(25), height = px(25)),
             "with ❤️ by", link("https://www.cayetano.edu.pe", "@zafiro")]
   layout(*myargs)
                  
