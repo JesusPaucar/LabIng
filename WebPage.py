@@ -134,9 +134,12 @@ with tab2:
   col22.image(image3, caption = 'ARELÍ')
   col33.image(image4, caption = 'ABRAHAM')
   col44.image(image5, caption = 'PIERO')
+  footer()
 with tab3:
   st.markdown('# Solicitudes', unsafe_allow_html = False)
   st.markdown('#### Solicitar Materiales', unsafe_allow_html = False)
   st.markdown('#### Solicitud de copias', unsafe_allow_html = False)
+  footer()
 with tab4:
   st.markdown('**Teléfonos de contacto**')
+  footer()
