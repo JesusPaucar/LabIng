@@ -1,7 +1,6 @@
 import streamlit as st
 from skimage import io
 import gdown
-#from streamlit.componets.v1 import html
 from htbuilder import HtmlElement, div, ul, li, br, hr, a, p, img, styles, classes, fonts
 from htbuilder.units import percent, px
 from htbuilder.funcs import rgba, rgb
@@ -137,7 +136,8 @@ with tab2:
   footer()
 with tab3:
   st.markdown('# Solicitudes', unsafe_allow_html = False)
-  st.markdown('#### Solicitar Materiales', unsafe_allow_html = False)
+  st.markdown('#### Solicitar Materiales:', unsafe_allow_html = False)
+  link("https://forms.gle/5E5NCZHN8JZMYnix6", "@prestamos")
   st.markdown('#### Solicitud de copias', unsafe_allow_html = False)
   footer()
 with tab4:
