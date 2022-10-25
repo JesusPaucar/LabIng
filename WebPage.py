@@ -47,6 +47,11 @@ with tab1:
   #col1, col2, col3 = st.columns(3)
   #col2.image(image, width = 1000)
   st.image(image, caption = 'Imagen de Prueba', width = None, use_column_width = True, clamp = False, channels = 'RGB', output_format = 'jpg')
+  st.header('2. Presentación', anchor = None)
+  st.header('3. Misión', anchor = None)
+  st.header('4. Visión', anchor = None)
+  st.header('5. Campus', anchor = None)
+  st.header('6. Organización', anchor = None)
 with tab2:
   st.markdown('**Miembros**')
   image1 = io.imread('Fig_M.jpg')
