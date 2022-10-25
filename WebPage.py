@@ -71,7 +71,7 @@ def footer():
     br(),
     link("https://upch.edu.pe", image('https://i.imgur.com/thJhzOO.png')),
   ]
- layout(*myargs)
+  layout(*myargs)
 
 # Imagen para la presentación
 url1 = "https://drive.google.com/uc?id=1pi1tDrxSxin4v6Vg58R0wVHPOC--xIgq"
