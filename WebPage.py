@@ -103,7 +103,7 @@ def footer():
   logo_cache = st.image(img_logo)
   logo_cache.empty()
   
-  myargs = ["Made in", image('https://cayetano.edu.pe/cayetano/images/2020/eventos/img-logo-upch-001-2.png', width = px(25), height = px(25)),
+  myargs = ["Made in", image('Fig_1.jpg', width = px(25), height = px(25)),
             "with ❤️ by", link("https://www.cayetano.edu.pe", "@zafiro")]
   layout(*myargs)
                  
