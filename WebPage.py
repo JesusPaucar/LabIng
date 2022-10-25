@@ -1,7 +1,7 @@
 import streamlit as st
 from skimage import io
 import gdown
-from streamlit.componets.v1 import html
+#from streamlit.componets.v1 import html
 from htbuilder import HtmlElement, div, ul, li, br, hr, a, p, img, styles, classes, fonts
 from htbuilder.units import percent, px
 from htbuilder.funcs import rgba, rgb
