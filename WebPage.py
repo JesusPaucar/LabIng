@@ -55,9 +55,9 @@ def layout(*args):
   st.markdown(style, unsafe_allow_html = True)
   
   for arg in args:
-    if isintance(arg, str):
+    if isinstance(arg, str):
       body(arg)
-    elif isintance(arg, HtmlElement):
+    elif isinstance(arg, HtmlElement):
       body(arg)
   st.markdown(str(foot), unsafe_allow_html = True)
 
